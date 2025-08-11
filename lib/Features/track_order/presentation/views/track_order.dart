@@ -11,24 +11,42 @@ class TrackOrder extends StatelessWidget {
       body: Column(
         children: [
           Container(
-                height: 150.h,
-                color: Color(0xffFFA451),
-                child: Center(
-                  child: Text(
-                    'Delivery Status',
-                    style: TextStyle(
-                      fontSize: 24,
-                      fontWeight: FontWeight.bold,
-                      color: Colors.white,
-                    ),
-                  ),
+            height: 150.h,
+            color: Color(0xffFFA451),
+            child: Center(
+              child: Text(
+                'Delivery Status',
+                style: TextStyle(
+                  fontSize: 24,
+                  fontWeight: FontWeight.bold,
+                  color: Colors.white,
                 ),
               ),
-              TrackingCard(
-                imagePath: 'assets/images/image_3.png',
-                title: 'Order Tacken',
-                backgroundColor: Color(0xffFFA451),
-              ),
+            ),
+          ),
+          SizedBox(height: 20.h),
+          Padding(
+            padding: const EdgeInsets.all(8.0),
+            child: Column(
+              children: [
+                TrackingCard(
+                  imagePath: 'assets/images/image_4.png',
+                  title: 'Order Tacken',
+                  backgroundColor: Color(0xffFFA451),
+                ),
+                TrackingCard(
+                  imagePath: 'assets/images/image_2.png',
+                  title: 'Order Tacken',
+                  backgroundColor: Color(0xffFFA451),
+                ),
+                TrackingCard(
+                  imagePath: 'assets/images/image_2.png',
+                  title: 'Order Tacken',
+                  backgroundColor: Color(0xffFFA451),
+                ),
+              ],
+            ),
+          ),
         ],
       ),
     );

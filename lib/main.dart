@@ -17,7 +17,7 @@ class FruitShop extends StatelessWidget {
       minTextAdapt: true,
       designSize: const Size(375, 812),
       child: MaterialApp(
-        home: TrackOrder(),
+        home: BasketView(),
       ),
     );
   }
