@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:fruit_shop/Features/basket/presentation/widgets/n_letter.dart';
 
 class TrackingCard extends StatelessWidget {
   const TrackingCard({

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:fruit_shop/Features/congratulations/presentation/views/widgets/check_icon.dart';
+import 'package:fruit_shop/Features/congratulations/presentation/widgets/check_icon.dart';
 
 class Congratilations extends StatelessWidget {
   const Congratilations({super.key});
@@ -31,7 +31,10 @@ class Congratilations extends StatelessWidget {
               child: ElevatedButton(
                 style: ElevatedButton.styleFrom(
                   backgroundColor: Color(0xffFFA451),
-                  padding: EdgeInsets.symmetric(horizontal: 20.w, vertical: 10.h),
+                  padding: EdgeInsets.symmetric(
+                    horizontal: 20.w,
+                    vertical: 10.h,
+                  ),
                   shape: RoundedRectangleBorder(
                     borderRadius: BorderRadius.circular(10),
                   ),
@@ -55,7 +58,10 @@ class Congratilations extends StatelessWidget {
               child: ElevatedButton(
                 style: ElevatedButton.styleFrom(
                   backgroundColor: Colors.white,
-                  padding: EdgeInsets.symmetric(horizontal: 20.w, vertical: 10.h),
+                  padding: EdgeInsets.symmetric(
+                    horizontal: 20.w,
+                    vertical: 10.h,
+                  ),
                   shape: RoundedRectangleBorder(
                     borderRadius: BorderRadius.circular(10),
                   ),
@@ -67,7 +73,7 @@ class Congratilations extends StatelessWidget {
                 ),
               ),
             ),
-           Spacer(),
+            Spacer(),
           ],
         ),
       ),
